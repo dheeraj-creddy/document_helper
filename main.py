@@ -4,6 +4,8 @@ from backend.core import run_llm
 
 import streamlit as st
 
+logo_path = "assets/LG_LOGO.svg"
+st.image(str(logo_path), width=150)
 st.header("LG Helper Bot")
 
 prompt = st.text_input("Prompt", placeholder="Enter your prompt here..")
